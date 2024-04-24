@@ -15,7 +15,11 @@
     <description>jimao-admin:集贸商城总体管理模块</description>
 
     <dependencies>
-
+        <dependency>
+            <groupId>pers.yan</groupId>
+            <artifactId>jimao-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
 
     </dependencies>
 

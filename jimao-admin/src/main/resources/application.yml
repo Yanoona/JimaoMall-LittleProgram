@@ -3,5 +3,17 @@ spring:
     name: JimaoMall
   profiles:
     active: admin,system
+
 server:
   port: 8081
+
+mybatis-flex:
+  datasource:
+    master:
+      url: jdbc:mysql://127.0.0.1:3306/jimaoMallLittleProgram
+      username: root
+      password: 123456
+#    salve:
+#      url: jdbc:mysql://127.0.0.1:3306/db2
+#      username: root
+#      password: 123456
