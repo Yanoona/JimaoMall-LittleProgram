@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: JimaoMall
+  profiles:
+    active: admin,system
+server:
+  port: 8081
