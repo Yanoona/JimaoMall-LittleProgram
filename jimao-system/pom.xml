@@ -6,21 +6,26 @@
 		<groupId>pers.yan</groupId>
 		<artifactId>JimaoMallLittleProgram</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>pers.yan</groupId>
 	<artifactId>jimao-system</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>jimao-system</name>
 	<description>jimao-system：集贸商城-系统模块</description>
+
+	<packaging>jar</packaging>
 
 	<properties>
 		<java.version>21</java.version>
 	</properties>
 
 	<dependencies>
-
+		<dependency>
+			<groupId>pers.yan</groupId>
+			<artifactId>jimao-common</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 
 	<build>

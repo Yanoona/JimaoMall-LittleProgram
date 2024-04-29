@@ -6,13 +6,15 @@
         <groupId>pers.yan</groupId>
         <artifactId>jimao-starter</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
     </parent>
 
     <artifactId>jimao-minio-spring-boot-starter</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>jimao-minio-spring-boot-starter</name>
     <description>jimao-minio-spring-boot-starter: minio Starter</description>
+
+    <packaging>jar</packaging>
 
     <properties>
         <minio.version>8.4.5</minio.version>

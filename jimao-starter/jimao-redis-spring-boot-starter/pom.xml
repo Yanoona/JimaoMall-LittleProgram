@@ -6,7 +6,7 @@
         <groupId>pers.yan</groupId>
         <artifactId>jimao-starter</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
     </parent>
 
     <artifactId>jimao-redis-spring-boot-starter</artifactId>

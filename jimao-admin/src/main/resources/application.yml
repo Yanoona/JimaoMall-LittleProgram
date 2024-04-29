@@ -17,3 +17,5 @@ mybatis-flex:
 #      url: jdbc:mysql://127.0.0.1:3306/db2
 #      username: root
 #      password: 123456
+  mapper-locations: classpath*:**/mapper/**/*Mapper.xml
+  check-config-location: true
