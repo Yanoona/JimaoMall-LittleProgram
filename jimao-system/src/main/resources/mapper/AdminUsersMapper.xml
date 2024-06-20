@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="pers.yan.jimao.system.mapper.AdminUsersMapper">
+
+    <resultMap id="BaseResultMap" type="pers.yan.jimao.system.entity.AdminUsers">
+            <id property="id" column="id" jdbcType="INTEGER"/>
+            <result property="username" column="username" jdbcType="VARCHAR"/>
+            <result property="nickname" column="nickname" jdbcType="VARCHAR"/>
+            <result property="avatar" column="avatar" jdbcType="VARCHAR"/>
+            <result property="email" column="email" jdbcType="VARCHAR"/>
+            <result property="mobile" column="mobile" jdbcType="VARCHAR"/>
+            <result property="loginfailure" column="loginfailure" jdbcType="TINYINT"/>
+            <result property="lastlogintime" column="lastlogintime" jdbcType="BIGINT"/>
+            <result property="lastloginip" column="lastloginip" jdbcType="VARCHAR"/>
+            <result property="password" column="password" jdbcType="VARCHAR"/>
+            <result property="salt" column="salt" jdbcType="VARCHAR"/>
+            <result property="motto" column="motto" jdbcType="VARCHAR"/>
+            <result property="createtime" column="createtime" jdbcType="BIGINT"/>
+            <result property="updatetime" column="updatetime" jdbcType="BIGINT"/>
+            <result property="status" column="status" jdbcType="INTEGER"/>
+            <result property="isDelete" column="is_delete" jdbcType="INTEGER"/>
+    </resultMap>
+
+</mapper>
